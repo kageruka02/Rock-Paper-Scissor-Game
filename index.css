@@ -1,0 +1,30 @@
+.thewholediv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50%;
+  position: relative;
+}
+.rock {
+  margin-right: 50px;
+}
+.result {
+  color: grey;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 3rem;
+}
+.WinsLosses {
+  position: absolute;
+  right: 10%;
+  font-weight: 700;
+  font-size: 5rem;
+  display: none;
+}
+button {
+  /* background-color: yellow; */
+  margin-right: 40px;
+  height: 30px;
+}
